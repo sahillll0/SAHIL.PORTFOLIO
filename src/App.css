@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Font-1';
+    src: url('./assets/fonts/file.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Font-2';
+    src: url('./assets/fonts/file (1).woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Font-3';
+    src: url('./assets/fonts/file (2).woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Font-4';
+    src: url('./assets/fonts/helveticaneuew01-45ligh.latin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Font-5';
+    src: url('./assets/fonts/madefor-text.var.original.woff2') format('woff2');
+}
+
+
+
+
+
+* {
+    cursor: none !important;
+}
+
+.navbar {
+    width: 100vw;
+    border-bottom: 1px dotted rgba(255, 0, 0, 0.345);
+    padding-bottom: 5px;
+}
+
+.nav-link {
+    color: #ffffff;
+    /* Light gray */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff3c00;
+    /* Red */
+}
