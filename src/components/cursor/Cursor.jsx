@@ -2,8 +2,16 @@ import React, { useEffect, useState } from 'react';
 
 const Cursor = () => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
+    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
+        const checkMobile = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+
         const mouseMove = (e) => {
             setPosition({ x: e.clientX, y: e.clientY });
         };
@@ -11,9 +19,12 @@ const Cursor = () => {
         window.addEventListener('mousemove', mouseMove);
 
         return () => {
+            window.removeEventListener('resize', checkMobile);
             window.removeEventListener('mousemove', mouseMove);
         };
     }, []);
+
+    if (isMobile) return null;
 
     return (
         <div
