@@ -68,8 +68,8 @@ const Bio = () => {
                     />
                 </div>
 
-                <div className='flex justify-center items-center h-full pt-20'>
-                    <h1 ref={titleRef} className='text-4xl sm:text-6xl md:text-[6vw] font-[Font-1] font-black tracking-tighter'>BIOGRAPHY</h1>
+                <div className='flex justify-center items-center h-screen'>
+                    <h1 ref={titleRef} className='text-3xl md:text-4xl font-[Font-1]'>BIOGRAPHY</h1>
                     <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-red-600/10 blur-[150px] rounded-full z-0"></div>
                 </div>
 
