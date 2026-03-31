@@ -6,12 +6,20 @@ import { useNavigate } from 'react-router-dom';
 // Import local images
 import project1 from '../../assets/images/projects/sitecheck_new.png';
 import project2 from '../../assets/images/projects/taskmanager_new.png';
-import project3 from '../../assets/images/projects/chessgame.png';
+import project3 from '../../assets/images/projects/1project.png';
 
 // Register ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
+    {
+        id: 1,
+        title: "Sendly",
+        subtitle: "Visit Site",
+        image: project3,
+        icon: "fa-brands fa-github"
+    }
+    ,
     {
         id: 1,
         title: "SiteCheck",
@@ -26,13 +34,7 @@ const projects = [
         image: project2,
         icon: "fa-brands fa-github"
     },
-    {
-        id: 3,
-        title: "Chess game",
-        subtitle: "Visit Site",
-        image: project3,
-        icon: "fa-brands fa-github"
-    }
+    
 ];
 
 const ProjectCard = ({ project }) => {
