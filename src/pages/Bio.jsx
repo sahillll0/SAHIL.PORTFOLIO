@@ -109,7 +109,7 @@ const Bio = () => {
                         </p>
 
                         <p>
-                            His work combines clean UI development with efficient backend logic, allowing him to create web applications that are both visually engaging and technically reliable. Sahil specializes in technologies such as React.js, Node.js, Express.js, and MongoDB, while also integrating modern animation libraries like GSAP and Framer Motion to enhance user experience.
+                            His work combines clean UI development with efficient backend logic, allowing him to create web applications that are both visually engaging and technically reliable. Sahil specializes in technologies such as React.js,NextJs, Node.js, Express.js, and MongoDB, while also integrating modern animation libraries like GSAP and Framer Motion to enhance user experience.
                         </p>
 
                         <p>
