@@ -21,7 +21,7 @@ const LatestUpdates = ({ updatesRef }) => {
                 <div className='relative w-full max-w-[320px] aspect-320/450 rounded-xl overflow-hidden border border-white/10 shadow-2xl'>
                     <img
                         src={sendlyLogo}
-                        alt="Sendly Logo"
+                        alt="Sendly Logo ."
                         className='w-full h-full object-cover transition duration-500 group-hover:scale-110'
                     />
                 </div>
