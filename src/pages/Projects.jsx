@@ -5,12 +5,20 @@ import project1 from '../assets/images/bio/project1.jpeg'
 
 // Import Project Images
 import sitecheckImg from '../assets/images/projects/sitecheck_new.png'
-import chessImg from '../assets/images/projects/chessgame.png'
+import sendlyImg from '../assets/images/projects/sendly.png'
 import taskImg from '../assets/images/projects/taskmanager_new.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const projects = [
+    {
+        title: "Sendly",
+        description: "A powerful form backend for developers. The easiest way to receive form submissions from your static site. Connect your frontend to the API and get emails instantly without a server.",
+        tech: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
+        github: "https://github.com/sahillll0/sendly",
+        live: "https://sendly-bay.vercel.app/",
+        image: sendlyImg
+    },
     {
         title: "SiteCheck",
         description: "A comprehensive website analyzer providing deep insights into technical SEO, performance metrics, and accessibility standards. Built with a focus on speed and actionable data.",
@@ -27,15 +35,8 @@ const projects = [
         live: "https://ai-task-manager-delta.vercel.app/",
         image: taskImg
 
-    },
-    {
-        title: "Chess Strategic",
-        description: "An immersive online chess platform featuring real-time multiplayer gameplay, move validation, and strategic analysis tools. Designed with a dark, cinematic aesthetic.",
-        tech: ["React.js", "Socket.io", "GSAP", "MongoDB"],
-        github: "https://github.com/sahillll0/Chess_Game.",
-        live: "#",
-        image: chessImg
     }
+
 ];
 
 const Projects = () => {

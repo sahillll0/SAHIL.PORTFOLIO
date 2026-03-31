@@ -1,14 +1,14 @@
 import React from 'react';
-import siteCheckLogo from '../../assets/images/projects/sitecheck_new.png';
+import sendlyLogo from '../../assets/images/projects/sendly.png';
 import { useNavigate } from 'react-router-dom';
 
 const LatestUpdates = ({ updatesRef }) => {
     const navigate = useNavigate();
     const updates = [
-        { id: 1, text: "Website Performance & Speed Analysis", icon: "fa-tachometer-alt" },
-        { id: 2, text: "SEO Optimization & Ranking Insights", icon: "fa-chart-line" },
-        { id: 3, text: "Security Vulnerability Scanning", icon: "fa-shield-alt" },
-        { id: 4, text: "Real-time Uptime Monitoring", icon: "fa-server" }
+        { id: 1, text: "Simple, Powerful Form Backend", icon: "fa-server" },
+        { id: 2, text: "Receive Form Submissions Easily", icon: "fa-envelope-open-text" },
+        { id: 3, text: "Connect Frontend to API", icon: "fa-plug" },
+        { id: 4, text: "Instant Email Notifications", icon: "fa-bell" }
     ];
 
     return (
@@ -20,8 +20,8 @@ const LatestUpdates = ({ updatesRef }) => {
                 <div className='absolute -inset-1 bg-linear-to-r from-red-600 to-transparent blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200'></div>
                 <div className='relative w-full max-w-[320px] aspect-320/450 rounded-xl overflow-hidden border border-white/10 shadow-2xl'>
                     <img
-                        src={siteCheckLogo}
-                        alt="SiteCheck Logo"
+                        src={sendlyLogo}
+                        alt="Sendly Logo"
                         className='w-full h-full object-cover transition duration-500 group-hover:scale-110'
                     />
                 </div>
