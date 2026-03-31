@@ -21,7 +21,7 @@ const projects = [
     },
     {
         title: "SiteCheck",
-        description: "A comprehensive website analyzer providing deep insights into technical SEO, performance metrics, and accessibility standards. Built with a focus on speed and actionable data.",
+        description: "A comprehensive website analyzer providing deep insights into technical SEO, performance metrics, and accessibility standards. Built with a focus on speed and actionable data .",
         tech: ["React.js", "Node.js", "Express.js", "Tailwind CSS"],
         github: "https://github.com/sahillll0/SiteCheck.com",
         live: "https://site-check-com.vercel.app/",
